@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9081931A8438CC1F14444EBB /* Pods_GYMPlan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1B58C3CDBEDBA5574EBBC0 /* Pods_GYMPlan.framework */; };
 		DEB51E5C27DFA6AC00C38239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB51E5B27DFA6AC00C38239 /* AppDelegate.swift */; };
 		DEB51E5E27DFA6AC00C38239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB51E5D27DFA6AC00C38239 /* SceneDelegate.swift */; };
 		DEB51E6027DFA6AC00C38239 /* MuscleGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB51E5F27DFA6AC00C38239 /* MuscleGroupsVC.swift */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E1B58C3CDBEDBA5574EBBC0 /* Pods_GYMPlan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GYMPlan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5C0791398D6A2BF91F54A49 /* Pods-GYMPlan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYMPlan.release.xcconfig"; path = "Target Support Files/Pods-GYMPlan/Pods-GYMPlan.release.xcconfig"; sourceTree = "<group>"; };
 		DEB51E5827DFA6AC00C38239 /* GYMPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYMPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB51E5B27DFA6AC00C38239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEB51E5D27DFA6AC00C38239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +31,7 @@
 		DEB51E6A27DFA6AD00C38239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEB51E6C27DFA6AD00C38239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEB51E7627DFAAED00C38239 /* ExercisesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesVC.swift; sourceTree = "<group>"; };
+		FA8539CEAF94C28D4A105887 /* Pods-GYMPlan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GYMPlan.debug.xcconfig"; path = "Target Support Files/Pods-GYMPlan/Pods-GYMPlan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9081931A8438CC1F14444EBB /* Pods_GYMPlan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F76A7D54215680CE6FCBF5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA8539CEAF94C28D4A105887 /* Pods-GYMPlan.debug.xcconfig */,
+				A5C0791398D6A2BF91F54A49 /* Pods-GYMPlan.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DEB51E4F27DFA6AC00C38239 = {
 			isa = PBXGroup;
 			children = (
 				DEB51E5A27DFA6AC00C38239 /* GYMPlan */,
 				DEB51E5927DFA6AC00C38239 /* Products */,
+				3F76A7D54215680CE6FCBF5D /* Pods */,
+				E5064CD308BA9E964C6D2790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +122,14 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		E5064CD308BA9E964C6D2790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E1B58C3CDBEDBA5574EBBC0 /* Pods_GYMPlan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +137,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEB51E6F27DFA6AD00C38239 /* Build configuration list for PBXNativeTarget "GYMPlan" */;
 			buildPhases = (
+				0A6FC0CC4BDFDC788D8679F7 /* [CP] Check Pods Manifest.lock */,
 				DEB51E5427DFA6AC00C38239 /* Sources */,
 				DEB51E5527DFA6AC00C38239 /* Frameworks */,
 				DEB51E5627DFA6AC00C38239 /* Resources */,
+				E27294CF6757514DF9C57051 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +197,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A6FC0CC4BDFDC788D8679F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GYMPlan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E27294CF6757514DF9C57051 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GYMPlan/Pods-GYMPlan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GYMPlan/Pods-GYMPlan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GYMPlan/Pods-GYMPlan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DEB51E5427DFA6AC00C38239 /* Sources */ = {
@@ -324,6 +393,7 @@
 		};
 		DEB51E7027DFA6AD00C38239 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8539CEAF94C28D4A105887 /* Pods-GYMPlan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -352,6 +422,7 @@
 		};
 		DEB51E7127DFA6AD00C38239 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C0791398D6A2BF91F54A49 /* Pods-GYMPlan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
