@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB51E5C27DFA6AC00C38239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB51E5B27DFA6AC00C38239 /* AppDelegate.swift */; };
+		DEB51E5E27DFA6AC00C38239 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB51E5D27DFA6AC00C38239 /* SceneDelegate.swift */; };
+		DEB51E6027DFA6AC00C38239 /* MuscleGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB51E5F27DFA6AC00C38239 /* MuscleGroupsVC.swift */; };
+		DEB51E6327DFA6AC00C38239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB51E6127DFA6AC00C38239 /* Main.storyboard */; };
+		DEB51E6627DFA6AC00C38239 /* GYMPlan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEB51E6427DFA6AC00C38239 /* GYMPlan.xcdatamodeld */; };
+		DEB51E6827DFA6AD00C38239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB51E6727DFA6AD00C38239 /* Assets.xcassets */; };
+		DEB51E6B27DFA6AD00C38239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB51E6927DFA6AD00C38239 /* LaunchScreen.storyboard */; };
+		DEB51E7727DFAAED00C38239 /* ExercisesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB51E7627DFAAED00C38239 /* ExercisesVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEB51E5827DFA6AC00C38239 /* GYMPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYMPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB51E5B27DFA6AC00C38239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEB51E5D27DFA6AC00C38239 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEB51E5F27DFA6AC00C38239 /* MuscleGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupsVC.swift; sourceTree = "<group>"; };
+		DEB51E6227DFA6AC00C38239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB51E6527DFA6AC00C38239 /* GYMPlan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GYMPlan.xcdatamodel; sourceTree = "<group>"; };
+		DEB51E6727DFA6AD00C38239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB51E6A27DFA6AD00C38239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB51E6C27DFA6AD00C38239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB51E7627DFAAED00C38239 /* ExercisesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB51E5527DFA6AC00C38239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB51E4F27DFA6AC00C38239 = {
+			isa = PBXGroup;
+			children = (
+				DEB51E5A27DFA6AC00C38239 /* GYMPlan */,
+				DEB51E5927DFA6AC00C38239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB51E5927DFA6AC00C38239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB51E5827DFA6AC00C38239 /* GYMPlan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB51E5A27DFA6AC00C38239 /* GYMPlan */ = {
+			isa = PBXGroup;
+			children = (
+				DEB51E5B27DFA6AC00C38239 /* AppDelegate.swift */,
+				DEB51E5D27DFA6AC00C38239 /* SceneDelegate.swift */,
+				DEB51E7227DFA76300C38239 /* Data Model */,
+				DEB51E7527DFA9EE00C38239 /* Controller */,
+				DEB51E7327DFA79300C38239 /* View */,
+				DEB51E7427DFA9DD00C38239 /* Supporting Files */,
+				DEB51E6C27DFA6AD00C38239 /* Info.plist */,
+			);
+			path = GYMPlan;
+			sourceTree = "<group>";
+		};
+		DEB51E7227DFA76300C38239 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEB51E6427DFA6AC00C38239 /* GYMPlan.xcdatamodeld */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		DEB51E7327DFA79300C38239 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEB51E6127DFA6AC00C38239 /* Main.storyboard */,
+				DEB51E6927DFA6AD00C38239 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEB51E7427DFA9DD00C38239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEB51E6727DFA6AD00C38239 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEB51E7527DFA9EE00C38239 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEB51E5F27DFA6AC00C38239 /* MuscleGroupsVC.swift */,
+				DEB51E7627DFAAED00C38239 /* ExercisesVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB51E5727DFA6AC00C38239 /* GYMPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB51E6F27DFA6AD00C38239 /* Build configuration list for PBXNativeTarget "GYMPlan" */;
+			buildPhases = (
+				DEB51E5427DFA6AC00C38239 /* Sources */,
+				DEB51E5527DFA6AC00C38239 /* Frameworks */,
+				DEB51E5627DFA6AC00C38239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYMPlan;
+			productName = GYMPlan;
+			productReference = DEB51E5827DFA6AC00C38239 /* GYMPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB51E5027DFA6AC00C38239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DEB51E5727DFA6AC00C38239 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DEB51E5327DFA6AC00C38239 /* Build configuration list for PBXProject "GYMPlan" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB51E4F27DFA6AC00C38239;
+			productRefGroup = DEB51E5927DFA6AC00C38239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB51E5727DFA6AC00C38239 /* GYMPlan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB51E5627DFA6AC00C38239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB51E6B27DFA6AD00C38239 /* LaunchScreen.storyboard in Resources */,
+				DEB51E6827DFA6AD00C38239 /* Assets.xcassets in Resources */,
+				DEB51E6327DFA6AC00C38239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB51E5427DFA6AC00C38239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB51E6627DFA6AC00C38239 /* GYMPlan.xcdatamodeld in Sources */,
+				DEB51E6027DFA6AC00C38239 /* MuscleGroupsVC.swift in Sources */,
+				DEB51E7727DFAAED00C38239 /* ExercisesVC.swift in Sources */,
+				DEB51E5C27DFA6AC00C38239 /* AppDelegate.swift in Sources */,
+				DEB51E5E27DFA6AC00C38239 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEB51E6127DFA6AC00C38239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB51E6227DFA6AC00C38239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB51E6927DFA6AD00C38239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB51E6A27DFA6AD00C38239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEB51E6D27DFA6AD00C38239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEB51E6E27DFA6AD00C38239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB51E7027DFA6AD00C38239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV5BQ776YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GYMPlan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashlevdmitry.GYMPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB51E7127DFA6AD00C38239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV5BQ776YB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GYMPlan/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kashlevdmitry.GYMPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB51E5327DFA6AC00C38239 /* Build configuration list for PBXProject "GYMPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB51E6D27DFA6AD00C38239 /* Debug */,
+				DEB51E6E27DFA6AD00C38239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB51E6F27DFA6AD00C38239 /* Build configuration list for PBXNativeTarget "GYMPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB51E7027DFA6AD00C38239 /* Debug */,
+				DEB51E7127DFA6AD00C38239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEB51E6427DFA6AC00C38239 /* GYMPlan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEB51E6527DFA6AC00C38239 /* GYMPlan.xcdatamodel */,
+			);
+			currentVersion = DEB51E6527DFA6AC00C38239 /* GYMPlan.xcdatamodel */;
+			path = GYMPlan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEB51E5027DFA6AC00C38239 /* Project object */;
+}
